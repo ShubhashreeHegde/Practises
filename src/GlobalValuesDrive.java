@@ -15,7 +15,7 @@ public class GlobalValuesDrive {
 		FileInputStream fis=new FileInputStream("D:\\Selenium\\CoreJava\\src\\Data.properties");
 		
 		//now fis has a knowledge where is the file. tell that to prop
-		prop.load(fis);  //it will load meanse read
+		prop.load(fis);  //it will load meanse read........
 		
 		prop.getProperty("browser");
 		prop.getProperty("url");
