@@ -1,0 +1,34 @@
+Abstarction : 
+it is a process of hiding the implementation details from the user, only teh functionality will be provided to teh user.
+In other words the user will have the information on what the object does instead of how does it.
+
+Real life Example :
+There is a parent class which defines aircraft body construction rules
+All child classes (deff aircraft companies) have to inherit parent class and use those methods to build their own aircraft
+But there is a method called aircraft color which can be unique to every child cass depending on their company logo
+So, color method in parent class is not implemented with anybody. Instead only method is defined with out any body which we call as Abstract method
+If there is any method in class which is Abstract, then the class will be treated as Abstract class.
+Unlike Interfaces, this Abstract class can have methods (Concrete) which have implementatio as well. So, with abstract class only partial abstraction is achieved
+
+
+Abstract classes & methods : 
+Class which is declared with the abstract keyword is known as an abstract class in java
+It can have abstract (method without the body) and non-abstract methods (method with the body)
+Abstract classes achieves partial abstraction
+Interfaces on teh other hand are used for 100% abstraction.
+
+If any class create as an abstract then we cannot create object for that class
+
+Private access specifier is not allowed to the methods defined in the abstract class
+
+Difference b/w abstract class and Interface :
+Interface :
+It contains only abstract methods
+Access specifiers for methods in interface must be public
+Variable defined must be public
+To implement an interface we use implements keyword
+Abstract class :
+Abstract class can contain abstract methods, concrete methods or both
+Except private we can have any access specifiers for methods in abstract class
+Except private variable can have any access specifiers
+To implement an Abstract we can use Extend keyword
