@@ -1,0 +1,61 @@
+                                                        
+Apache Maven is a software project management and build management tool for Java Frameworks.
+1.	Why Maven?
+•	Central repository to get dependencies 
+	(all jars and with versions)
+•	Maintaining common structure across the organization-----
+	(there will be a multiple framework structures in organization. Maven will suggest one template after creating the maven project)
+•	Flexibility in Integrating with CI tools 
+	(all test cases can execute in one click using CI like Jenkins.To make our project compatible for Jenkins we have to add one build management tool to our framework that is maven we are using here)
+•	Plugins for Test framework execution.
+	(we have some excellint plugin for testing using maven so that support testing, junit also. So we can use all the features of testing, junit within maven tool
+
+
+2.	Install Maven
+
+3.	Set System variables to recognize Maven 
+	(MAVEN_HOME-home path, and in path-bin path) and then check in the command prompt mvn --version
+	
+4.	Understanding Maven terminologies
+	 Artifact: An artifact is a file, usually a JAR, that gets deployed to a Maven repository.
+ 	GroupId: groupId will identify your project uniquely across all projects,
+ 	archetype:generate ; Generates a new project from an archetype
+ 	
+5.	Creating Maven Project with Eclipse (right click-new-project-maven-maven project)
+	(to run we need to add some dependencies in pom.xml-mvnrepository - selenium
+
+6.	Maven Phases for Test Automation
+
+7.	Clean, compile, test
+	(goto command prompt in project level because pom.xml is in project level (D:\user\Mavenjava) commands are
+	Clean- mvn clean --->it will delete all temp files/build which current projects and it is preferred,
+	compile-mvn compile-->checking syntax errors of the code(e.x missing semicolon) because when we run it in jenkins there will not be a eclipse to show the errors,
+	test - mvn test - it will clean, complie and then start test, if we not do clean and compile also it will do from the beginning. It 
+	will check first all teh jars in the pom and will check in the folders. If it is not in folders then it willtake from mvnrepository and put there.
+	We can close and run tests using mvc test command
+	--If we want to run our test in maven, then we have to mention our classes having test (SeleniumTest, appiumTest, ..test etc)
+
+8.	Understanding POM.xml file dependencies..
+
+9.	How to find the dependencies of the Softwares?
+
+10.	Importance of Maven Sure fire plugin 
+	(this plugin is used to execute all testcases in our maven. By default it will not be there in the maven project. We need to download from https://maven.apache.org/surefire/maven-surefire-plugin/  and goto usage tab from the left side and copy from there and paste in pom.xml above dependencies
+	
+11.	Running Tests with Surefireplugin
+
+12.	Integrating Testng into Maven
+	(Create testng xml for the project by right click - testng-convert to testng. then addconfiguration in  pom.xml> mvn sure fire > configuration
+	mvn -DTest=AppiumTest test ---> it will run single test case
+	
+13.	Testng xml files configuration in POM file
+
+14.	Setting up Profiles in POM.xml file
+	(Suppose we have smoke, and regression test cases. If we somebody ask us to run only regression tests. So for that we need tp create 
+	profiles in pom.xml. Already we have 2 testng.xml's for smoke and Regression. So we need to configure that in pom. For that we can just add profile in pom
+	mvn test -PRegression -->it will run only regression (here -P stands for profile)
+	
+15.	Running selected Tests only with Maven commands
+
+16.	Maven Sure fire reports
+
