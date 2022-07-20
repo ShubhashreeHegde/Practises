@@ -1,0 +1,39 @@
+Java will not inherit multiple classes
+
+E.x - Imp qus
+class X
+{
+//class X Members
+}
+class Y
+{
+//class y Members
+}
+
+class Z extends X,Y
+{
+//class z Members
+}
+Will it works : NO, because Java will not inherit multiple classes
+
+
+Ex. Impp qus
+Class A
+{
+int i=10;
+}
+Class B extends A
+{
+int i=20;
+}
+
+public class mainclass
+{
+pulic static void main(String[] args)
+{
+A a=new B();
+sop(a.i);
+}
+What is o/p :
+if A a=new B(); then o/p will be 10
+if B a=new B(); then o/p will be 20
