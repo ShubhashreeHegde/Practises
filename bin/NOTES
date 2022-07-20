@@ -1,0 +1,9 @@
+Function overloading :
+
+Same class have multiple methods with the same name called function overloading. But they are differed with argumets used
+Rules : Either args count should be different or args type should be different
+
+In real time it will be helpfull. For example in the ecommerce website while we are purchasing item we click on payment.
+That time it will call getpayment method.
+There will be different types of payment methods say debitcard, creditcard etc. these all are the args of getpayment methos.
+getpayment(debitcard), getpayment(creditcard) etc etc
