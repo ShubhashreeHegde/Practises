@@ -1,0 +1,5 @@
+while running it will give prefernce to our local system only (overriden method)
+
+diff b/w overloading and overriding : 
+in overriding all will be same like name and arguments
+in overloading name will be same and arguments will be different
