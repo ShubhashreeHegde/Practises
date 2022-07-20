@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="13" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-10T12:27:39 IST" name="Loan Dept" finished-at="2022-07-10T12:27:39 IST" duration-ms="281">
+    <groups>
+      <group name="Smoke">
+        <method signature="Day2.ploan1()[pri:0, instance:Test.Day2@3514a4c0]" name="ploan1" class="Test.Day2"/>
+        <method signature="Day3.MobileLoginCarLoan()[pri:0, instance:Test.Day3@5ba3f27a]" name="MobileLoginCarLoan" class="Test.Day3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-07-10T12:27:39 IST" name="Personal Loan" finished-at="2022-07-10T12:27:39 IST" duration-ms="87">
+      <class name="Test.Day2">
+        <test-method is-config="true" signature="prerequisite()[pri:0, instance:Test.Day2@3514a4c0]" started-at="2022-07-10T12:27:39 IST" name="prerequisite" finished-at="2022-07-10T12:27:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisite -->
+        <test-method signature="ploan()[pri:0, instance:Test.Day2@3514a4c0]" started-at="2022-07-10T12:27:39 IST" name="ploan" finished-at="2022-07-10T12:27:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ploan -->
+        <test-method signature="ploan1()[pri:0, instance:Test.Day2@3514a4c0]" started-at="2022-07-10T12:27:39 IST" name="ploan1" finished-at="2022-07-10T12:27:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ploan1 -->
+      </class> <!-- Test.Day2 -->
+      <class name="Test.Day1">
+        <test-method signature="SecondTest()[pri:0, instance:Test.Day1@193f604a]" started-at="2022-07-10T12:27:39 IST" name="SecondTest" finished-at="2022-07-10T12:27:39 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+        <test-method signature="demo()[pri:0, instance:Test.Day1@193f604a]" started-at="2022-07-10T12:27:39 IST" name="demo" finished-at="2022-07-10T12:27:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="lastexecution()[pri:0, instance:Test.Day1@193f604a]" started-at="2022-07-10T12:27:39 IST" name="lastexecution" finished-at="2022-07-10T12:27:39 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastexecution -->
+      </class> <!-- Test.Day1 -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2022-07-10T12:27:39 IST" name="Car Loan" finished-at="2022-07-10T12:27:39 IST" duration-ms="106">
+      <class name="Test.Day3">
+        <test-method is-config="true" signature="BFSuite()[pri:0, instance:Test.Day3@5ba3f27a]" started-at="2022-07-10T12:27:39 IST" name="BFSuite" finished-at="2022-07-10T12:27:39 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BFSuite -->
+        <test-method is-config="true" signature="BFClass()[pri:0, instance:Test.Day3@5ba3f27a]" started-at="2022-07-10T12:27:39 IST" name="BFClass" finished-at="2022-07-10T12:27:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BFClass -->
+        <test-method is-config="true" signature="BeforEvery()[pri:0, instance:Test.Day3@5ba3f27a]" started-at="2022-07-10T12:27:39 IST" name="BeforEvery" finished-at="2022-07-10T12:27:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforEvery -->
+        <test-method signature="MobileLoginCarLoan()[pri:0, instance:Test.Day3@5ba3f27a]" started-at="2022-07-10T12:27:39 IST" name="MobileLoginCarLoan" finished-at="2022-07-10T12:27:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCarLoan -->
+        <test-method is-config="true" signature="AfterEvery()[pri:0, instance:Test.Day3@5ba3f27a]" started-at="2022-07-10T12:27:39 IST" name="AfterEvery" finished-at="2022-07-10T12:27:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEvery -->
+        <test-method is-config="true" signature="BeforEvery()[pri:0, instance:Test.Day3@5ba3f27a]" started-at="2022-07-10T12:27:39 IST" name="BeforEvery" finished-at="2022-07-10T12:27:39 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforEvery -->
+        <test-method signature="MobileLoginCarLoan1()[pri:0, instance:Test.Day3@5ba3f27a]" started-at="2022-07-10T12:27:39 IST" name="MobileLoginCarLoan1" finished-at="2022-07-10T12:27:39 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCarLoan1 -->
+        <test-method is-config="true" signature="AfterEvery()[pri:0, instance:Test.Day3@5ba3f27a]" started-at="2022-07-10T12:27:39 IST" name="AfterEvery" finished-at="2022-07-10T12:27:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEvery -->
+        <test-method is-config="true" signature="BeforEvery()[pri:0, instance:Test.Day3@5ba3f27a]" started-at="2022-07-10T12:27:39 IST" name="BeforEvery" finished-at="2022-07-10T12:27:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforEvery -->
+        <test-method signature="MobileLoginCarLoan2()[pri:0, instance:Test.Day3@5ba3f27a]" started-at="2022-07-10T12:27:39 IST" name="MobileLoginCarLoan2" finished-at="2022-07-10T12:27:39 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCarLoan2 -->
+        <test-method is-config="true" signature="AfterEvery()[pri:0, instance:Test.Day3@5ba3f27a]" started-at="2022-07-10T12:27:39 IST" name="AfterEvery" finished-at="2022-07-10T12:27:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEvery -->
+        <test-method is-config="true" signature="BeforEvery()[pri:0, instance:Test.Day3@5ba3f27a]" started-at="2022-07-10T12:27:39 IST" name="BeforEvery" finished-at="2022-07-10T12:27:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforEvery -->
+        <test-method signature="MobileLoginCarLoan4(java.lang.String,java.lang.String)[pri:0, instance:Test.Day3@5ba3f27a]" started-at="2022-07-10T12:27:39 IST" name="MobileLoginCarLoan4" data-provider="getData" finished-at="2022-07-10T12:27:39 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstsetpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCarLoan4 -->
+        <test-method is-config="true" signature="AfterEvery()[pri:0, instance:Test.Day3@5ba3f27a]" started-at="2022-07-10T12:27:39 IST" name="AfterEvery" finished-at="2022-07-10T12:27:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEvery -->
+        <test-method signature="MobileLoginCarLoan4(java.lang.String,java.lang.String)[pri:0, instance:Test.Day3@5ba3f27a]" started-at="2022-07-10T12:27:39 IST" name="MobileLoginCarLoan4" data-provider="getData" finished-at="2022-07-10T12:27:39 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Secondsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Secondsetpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCarLoan4 -->
+        <test-method is-config="true" signature="BeforEvery()[pri:0, instance:Test.Day3@5ba3f27a]" started-at="2022-07-10T12:27:39 IST" name="BeforEvery" finished-at="2022-07-10T12:27:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforEvery -->
+        <test-method is-config="true" signature="AfterEvery()[pri:0, instance:Test.Day3@5ba3f27a]" started-at="2022-07-10T12:27:39 IST" name="AfterEvery" finished-at="2022-07-10T12:27:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEvery -->
+        <test-method is-config="true" signature="BeforEvery()[pri:0, instance:Test.Day3@5ba3f27a]" started-at="2022-07-10T12:27:39 IST" name="BeforEvery" finished-at="2022-07-10T12:27:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforEvery -->
+        <test-method signature="MobileLoginCarLoan4(java.lang.String,java.lang.String)[pri:0, instance:Test.Day3@5ba3f27a]" started-at="2022-07-10T12:27:39 IST" name="MobileLoginCarLoan4" data-provider="getData" finished-at="2022-07-10T12:27:39 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdsetpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCarLoan4 -->
+        <test-method is-config="true" signature="AfterEvery()[pri:0, instance:Test.Day3@5ba3f27a]" started-at="2022-07-10T12:27:39 IST" name="AfterEvery" finished-at="2022-07-10T12:27:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEvery -->
+        <test-method is-config="true" signature="BeforEvery()[pri:0, instance:Test.Day3@5ba3f27a]" started-at="2022-07-10T12:27:39 IST" name="BeforEvery" finished-at="2022-07-10T12:27:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforEvery -->
+        <test-method signature="WebloginCarloan(java.lang.String,java.lang.String)[pri:0, instance:Test.Day3@5ba3f27a]" started-at="2022-07-10T12:27:39 IST" name="WebloginCarloan" finished-at="2022-07-10T12:27:39 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginCarloan -->
+        <test-method is-config="true" signature="AfterEvery()[pri:0, instance:Test.Day3@5ba3f27a]" started-at="2022-07-10T12:27:39 IST" name="AfterEvery" finished-at="2022-07-10T12:27:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEvery -->
+        <test-method is-config="true" signature="BeforEvery()[pri:0, instance:Test.Day3@5ba3f27a]" started-at="2022-07-10T12:27:39 IST" name="BeforEvery" finished-at="2022-07-10T12:27:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforEvery -->
+        <test-method signature="LoginAPICarLoan()[pri:0, instance:Test.Day3@5ba3f27a]" started-at="2022-07-10T12:27:39 IST" name="LoginAPICarLoan" finished-at="2022-07-10T12:27:39 IST" depends-on-methods="Test.Day3.WebloginCarloan, Test.Day3.MobileLoginCarLoan1" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPICarLoan -->
+        <test-method is-config="true" signature="AfterEvery()[pri:0, instance:Test.Day3@5ba3f27a]" started-at="2022-07-10T12:27:39 IST" name="AfterEvery" finished-at="2022-07-10T12:27:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEvery -->
+        <test-method is-config="true" signature="AFClass()[pri:0, instance:Test.Day3@5ba3f27a]" started-at="2022-07-10T12:27:39 IST" name="AFClass" finished-at="2022-07-10T12:27:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AFClass -->
+      </class> <!-- Test.Day3 -->
+      <class name="Test.Day1">
+        <test-method is-config="true" signature="AFSuite()[pri:0, instance:Test.Day1@193f604a]" started-at="2022-07-10T12:27:39 IST" name="AFSuite" finished-at="2022-07-10T12:27:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AFSuite -->
+      </class> <!-- Test.Day1 -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Loan Dept -->
+</testng-results>
